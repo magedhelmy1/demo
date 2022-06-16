@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "licensingdemo4"
+version = "0.1.0"
+description = ""
+authors = ["MH"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.0.5"
+djangorestframework = "^3.13.1"
+drf-stripe-subscription = "^1.1.11"
+pydantic = "^1.9.1"
+stripe = "^3.3.0"
+python-dotenv = "^0.20.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
